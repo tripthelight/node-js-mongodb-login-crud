@@ -8,7 +8,6 @@ mongoose.connect(
     {
         useUnifiedTopology: true,
         useNewUrlParser: true,
-
     }
 )
 .then(db => console.log('database connected'))
