@@ -1,0 +1,37 @@
+{
+  "name": "js-mongodb-login-crud",
+  "version": "1.0.0",
+  "description": "1. Development Environment\r - node\r - javascript\r - express\r - mongoDB\r - rest API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripthelight/node-js-mongodb-login-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tripthelight/node-js-mongodb-login-crud/issues"
+  },
+  "homepage": "https://github.com/tripthelight/node-js-mongodb-login-crud#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.5.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "npm-check-updates": "^16.0.5"
+  }
+}
