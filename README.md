@@ -21,6 +21,7 @@
 3. npm install
 - express connect-flash bcryptjs express-handlebars express-session method-override mongoose passport passport-local
 - dotenv nodemon npm-check-updates -D
+- morgan
 
 4. window typescript power-shell setting :
 - Get-ExecutionPolicy
