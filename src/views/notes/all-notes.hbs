@@ -1,0 +1,16 @@
+<div>
+    {{#each notes}}
+      <ul>
+        <li>{{@index}}</li>
+        <li>title : {{title}}</li>
+        <li>description : {{description}}</li>
+        <li><a href="/notes/edit/{{_id}}">edit</a></li>
+        <li>
+          <form action="/notes/delete/{{_id}}?_method=DELETE" method="POST">
+            <input type="hidden" name="_method" value="DELETE" />
+            <button type="submit">DELETE</button>
+          </form>
+        </li>
+      </ul>
+    {{/each}}
+</div>

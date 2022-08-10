@@ -5,6 +5,7 @@
 - javascript
 - express
 - mongoDB
+- hbs, handlebars
 - rest API
 
 2. vscode extension
@@ -22,10 +23,12 @@
 - express connect-flash bcryptjs express-handlebars express-session method-override mongoose passport passport-local
 - dotenv nodemon npm-check-updates -D
 - morgan
+- -D handlebars@4.5.0
+- @handlebars/allow-prototype-access
 
 4. window typescript power-shell setting :
 - Get-ExecutionPolicy
 - Set-ExecutionPolicy RemoteSigned
 
 5. youtube url
-https://www.youtube.com/watch?v=AknTRNvX9rA&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=5&ab_channel=FaztCode
+https://www.youtube.com/watch?v=YR5AmzlO-Ww&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=15&ab_channel=FaztCode
