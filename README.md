@@ -31,4 +31,5 @@
 - Set-ExecutionPolicy RemoteSigned
 
 5. youtube url
-https://www.youtube.com/watch?v=YR5AmzlO-Ww&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=15&ab_channel=FaztCode
+- https://www.youtube.com/watch?v=NN-Jt6EjFAc&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=19&ab_channel=FaztCode
+- 17:32
