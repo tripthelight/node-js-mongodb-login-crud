@@ -7,10 +7,11 @@ const { allowInsecurePrototypeAccess } = require('@handlebars/allow-prototype-ac
 const methodOverride = require('method-override');
 const flash = require('connect-flash');
 const session = require('express-session');
-
+const passport = require('passport');
 
 // Initializations
 const app = express();
+require('./config/passport');
 
 // Settings
 app.set('port', process.env.PORT || 4000);
@@ -33,6 +34,8 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }));
+app.use(passport.initialize());
+app.use(passport.session());
 app.use(flash());
 
 // Global Variables
