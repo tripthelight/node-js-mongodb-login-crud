@@ -1,0 +1,12 @@
+{{#each errors}}
+    <ul class="bottom-sheet">
+        <li>{{text}}</li>
+        <li>
+            <a
+                href="javascript:void(0);"
+                class="btn-close-bottom-sheet"
+                onclick="closeBottomSheet()"
+            >close</a>
+        </li>
+    </ul>
+{{/each}}
