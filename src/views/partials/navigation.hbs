@@ -1,11 +1,12 @@
 <ul>
     <li><a href="/">HOME</a></li>
     <li><a href="/about">ABOUT</a></li>
+    {{#if user}}
     <li><a href="/notes">VIEW ALL LIST</a></li>
     <li><a href="/notes/add">WRITE</a></li>
-</ul>
-<ul>
-    <li><a href="/users/signin">Login</a></li>
     <li><a href="/users/logout">Logout</a></li>
+    {{else}}
+    <li><a href="/users/signin">Login</a></li>
     <li><a href="/users/signup">Register</a></li>
+    {{/if}}
 </ul>

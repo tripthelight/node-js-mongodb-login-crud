@@ -1,3 +1,16 @@
+{{#if error}}
+    <ul class="bottom-sheet">
+        <li>{{error}}</li>
+        <li>
+            <a
+                href="javascript:void(0);"
+                class="btn-close-bottom-sheet"
+                onclick="closeBottomSheet()"
+            >close</a>
+        </li>
+    </ul>
+{{/if}}
+
 {{#each errors}}
     <ul class="bottom-sheet">
         <li>{{text}}</li>

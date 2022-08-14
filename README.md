@@ -1,4 +1,6 @@
-##This repository only serves LOGIN, CRUD
+## This repository only serves LOGIN, CRUD
+## You can only edit your own writing.
+## Posts written by other people (accounts) cannot be viewed.
 
 1. Development Environment
 - node
@@ -17,7 +19,6 @@
 - Auto rename tag
 - CSS PEEK
 - HTML CSS SUPPORT
-- Live Server
 
 3. npm install
 - express connect-flash bcryptjs express-handlebars express-session method-override mongoose passport passport-local
@@ -31,5 +32,4 @@
 - Set-ExecutionPolicy RemoteSigned
 
 5. youtube url
-- https://www.youtube.com/watch?v=NN-Jt6EjFAc&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=19&ab_channel=FaztCode
-- 17:32
+- https://www.youtube.com/watch?v=GVfAPWLkk0M&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=1&ab_channel=FaztCode
