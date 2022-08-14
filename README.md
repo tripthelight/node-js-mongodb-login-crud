@@ -31,5 +31,9 @@
 - Get-ExecutionPolicy
 - Set-ExecutionPolicy RemoteSigned
 
-5. youtube url
+5. env
+- NOTES_APP_MONGODB_HOST=localhost
+- NOTES_APP_MONGODB_DATABASE=notes-app
+
+6. youtube url
 - https://www.youtube.com/watch?v=GVfAPWLkk0M&list=PLo5lAe9kQrwqUEXK7oQbzv63KsdODzuAy&index=1&ab_channel=FaztCode
